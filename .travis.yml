@@ -1,0 +1,11 @@
+language: java
+
+jdk:
+  - oraclejdk8
+
+# Stage 0: Test -  Builds against all jdks
+script: mvn compile
+
+branches:
+  only:
+  - master
